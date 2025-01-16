@@ -145,7 +145,7 @@ def start_task(input_email: str):
                 while True:
                     time.sleep(random.uniform(0.5, 1.2))
                     logger.info("获取验证码")
-                    resp = session.get(url=captcha_url.format(captcha_0), headers=dict(header2, **{"Cookie": header2["Cookie"].format(csrftoken)}), verify=False); time.sleep(random.uniform(0.5, 2))
+                    resp = session.get(url=captcha_url.format(captcha_0), headers=dict(header2, **{"Cookie": header2["Cookie"].format(csrftoken)}), verify=False); time.sleep(random.uniform(0.5, 10))
                     content = resp.content
                     with open("static/image.jpg", "wb") as f:
                         f.write(content)
