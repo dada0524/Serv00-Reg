@@ -8,7 +8,7 @@ wget https://raw.githubusercontent.com/XyHK-HUC/Serv00-Reg/main/main.py
 ```
 ### 使用 `curl` 下载
 ```bash
-curl -O https://raw.githubusercontent.com/XyHK-HUC/Serv00-Reg/main/main.py
+curl -O https://raw.githubusercontent.com/dada0425/Serv00-Reg/main/main.py
 ```
 ## 安装依赖
 ### 使用 `pip` 安装依赖库
